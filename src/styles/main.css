@@ -1,0 +1,93 @@
+/* To set the color of the background */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset some basic elements */
+body {
+    background: linear-gradient(135deg, #7FFFD4, #00FFFF);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #7FFFD4;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+    flex-grow: 1; /* This will allow the main content to grow and fill the remaining space */
+}
+
+section#data-display {
+    background-color: linear-gradient(250deg, #A9A9A9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: #000000;
+}
+
+section#data-display h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div[id^="temperature-display"],
+div[id^="humidity-display"] {
+    margin-bottom: 20px;
+}
+
+div[id^="temperature-display"] h3,
+div[id^="humidity-display"] h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+div[id^="temperature-display"] p,
+div[id^="humidity-display"] p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}

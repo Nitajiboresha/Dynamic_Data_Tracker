@@ -1,0 +1,1 @@
+The main package file for the project is the: package.json file outside of both the src and server folders.
