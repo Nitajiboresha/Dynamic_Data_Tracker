@@ -1,0 +1,13 @@
+{
+  "name": "dynamic-data-tracker",
+  "version": "1.0.0",
+  "description": "A simple dynamic data tracker application",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run start-server & http-server . -o",
+    "start-server": "node server/server.js"
+  },
+  "author": "Douglas Ochieng Jr",
+  "license": "None",
+  "dependencies": {}
+}
